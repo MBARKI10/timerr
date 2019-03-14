@@ -1,0 +1,36 @@
+.button{
+    display: flex;
+
+    margin-left: 16%;
+    margin-top: 82px;
+    
+
+}
+.button-start{
+    width: 189%;
+    height: 41px;
+    border-color: rgb(0, 255, 157);
+    color: rgb(0, 255, 157);
+    border-radius: 10px;
+    font-size: 19px !important;
+}
+.button-stop{
+    width: 189%;
+    height: 41px;
+    margin-left: 5%;
+    border-color: rgb(20, 19, 19) !important;
+    color: black;
+    border-radius: 10px;
+    font-size: 19px !important;
+    margin-right: 15%;
+}
+@media only screen and (max-width:1170px){
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .button-stop{
+        margin-left: 0%;
+    }
+}

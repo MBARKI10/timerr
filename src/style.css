@@ -1,0 +1,35 @@
+.cadre{
+    margin-left: 35%;
+    border: solid 2px;
+    border-radius: 34px;
+    width: 28%;
+    height: 590px;
+    margin-bottom: 100%;
+}
+.top{
+    border: solid 2px;
+    border-radius: 34px;
+    width: 13%;
+    height: 5px;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+.timer{
+    border: solid 2px;
+    width: 85%;
+    height: 280px;
+    padding-top: 184px;
+    margin-left: 6%;
+    margin-top: 22px;
+}
+
+/* timer.js p */
+.time {
+    margin-top: -43px !important;
+}
+.desc{
+    color: rgb(167, 165, 165);
+    
+    font-size: 12px;
+    word-spacing: 18px;
+}
